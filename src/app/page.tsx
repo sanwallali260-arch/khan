@@ -1,19 +1,20 @@
 const HomePage = () => {
   return (
     <section className="flex flex-col items-center text-center">
-      <h2 className="text-4xl font-bold text-blue-700 mb-6">
-        Welcome to Fresh Project
+      <h2 className="text-4xl font-bold text-teal-700 mb-6">
+        Welcome to Medium Project
       </h2>
       <p className="text-lg text-gray-700 mb-8 max-w-2xl">
-        This is the Home Page built with{" "}
+        A clean and simple website built with{" "}
         <span className="font-semibold">Next.js 15</span>,{" "}
         <span className="font-semibold">TypeScript</span>, and{" "}
-        <span className="font-semibold">Tailwind CSS</span>.
+        <span className="font-semibold">Tailwind CSS</span>.  
+        Perfect for learning and starting new projects.
       </p>
       <img
-        src="lali"
+        src="khan"
         alt="Homepage Banner"
-        className="rounded-xl shadow-lg"
+        className="rounded-lg shadow-lg"
       />
     </section>
   );
